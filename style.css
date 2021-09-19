@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to top, black,grey); */
+    background-image: url('bike2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .navbar{
+     width: 95%;
+     height: auto;
+     margin-left: 10px;
+ }     
+      
+
+ 
+ .logo{
+    
+    color: #ff7200;
+    /* border: 1px solid green; */
+    
+    margin-bottom: -2%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    cursor: pointer;
+} 
+.navitem {
+    /* border: 1px solid green; */
+    width: 600px;
+    float: left;
+    height: 40px;
+    margin-bottom: 60px;
+
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 25%;
+margin-bottom: 20px;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    color:#ff7200
+}
+
+.searchbox{
+    border: 2px solid green;
+    float: right;
+    width: 200px;
+    background: #fff;
+    height: 30px;
+    padding: 3px;
+    border-radius: 15px;
+   margin-right: 1%;
+   margin-bottom: 20px;
+    
+}
+.searchbox .stext{
+    width: 170px;
+    padding: 0 6px;
+}
+.button{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.stext{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+}
+.title h2{
+    cursor: pointer;
+    font-family: cursive;
+    color: wheat;
+    font-size: 25px;
+}
+.title h2:hover{
+    color: #fff;
+}
+.btntext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.btn{
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    color: black;
+    background-color: #ff7200;
+
+}
